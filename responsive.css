@@ -1,0 +1,60 @@
+@media screen and (max-width: 600px) {
+    .navigation-bar {
+        flex-direction: column;
+    }
+
+    .nav-title {
+        width: 500px;
+        margin-bottom: 10px;
+    }
+
+    .nav-content ul {
+        flex-direction: column;
+    }
+
+    .banner-section {
+        margin-left: 70px;
+        width: 450px;
+        height: 453px;
+    }
+
+    .banner-title {
+        padding-top: 10px;
+    }
+
+    .banner {
+        display: flex;
+        width: 320px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        margin: 10px 24px 20px 70px;
+    }
+
+    .banner select, .banner button {
+        width: 300px;
+        height: 52px;
+    }
+    /*  banner ends here */
+    
+    .hero-section {
+        flex-direction: column;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .hero{
+        width: 90%;
+        height: 450px;
+    }
+    .hero button{
+        margin: 20px;
+
+    }
+    .hero img{
+        height: 300px;
+    }
+    .hero h2{
+        padding: 0;
+    }
+
+}
